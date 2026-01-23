@@ -1,0 +1,26 @@
+p {
+    color: blue;
+}
+
+.highlight {
+  background: yellow;
+}
+
+
+#main-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: indigo;
+}
+
+ p {
+    margin-bottom: 20px;
+    color: green;
+}
+
+.intro { font-weight: bold; 
+         font-size: 18px;  }
+
+         .page { text-align: center;
+            text-decoration: underline; 
+        }

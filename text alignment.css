@@ -1,0 +1,49 @@
+exercise 2: Text Alignment ================= -->
+.center {
+     text-align: center;
+    }
+
+
+    .left { 
+        left text-align: left;
+    }
+
+   .right {
+        text-align: right;
+    }
+ 
+    <!-- ================= Exercise 3: Text Decoration ================= -->
+   
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .lined {
+        text-decoration: underline;
+    }
+
+    <!-- ================= Exercise 4: Line Height ================= -->
+    .line-height {
+        line-height: 10.8;
+    }
+
+    .letter-spacing {
+        letter-spacing: 10px;
+    }
+    .word-spacing {
+        word-spacing: 16px;
+    }
+
+    <!-- ================= Exercise 6: Text Transform ================= -->
+    .upper {
+        text-transform: uppercase;
+    }
+
+    .lower {
+        text-transform: lowercase;
+    }
+
+    .capital {
+        text-transform: capitalize;
+    }

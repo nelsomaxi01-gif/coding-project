@@ -1,0 +1,79 @@
+
+/* ================= Exercise 2: Text Alignment ================= */
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/* ================= Exercise 3: Text Decoration ================= */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.decorated {
+    text-decoration: underline;
+}
+
+/* ================= Exercise 4: Line Height ================= */
+.readable {
+    line-height: 1.8;
+}
+
+/* ================= Exercise 5: Letter & Word Spacing ================= */
+.letter-space {
+    letter-spacing: 4px;
+}
+
+.word-space {
+    word-spacing: 6px;
+}
+
+/* ================= Exercise 6: Text Transform ================= */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+/* ================= Exercise 7: Blog Styling ================= */
+.blog {
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.blog-title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.blog-subtitle {
+    text-align: center;
+    text-transform: capitalize;
+    color: gray;
+}
+
+.blog-body {
+    line-height: 1.7;
+    word-spacing: 4px;
+}
+
+.blog-author {
+    text-align: right;
+    font-style: italic;
+}
+
