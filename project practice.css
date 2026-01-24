@@ -1,13 +1,100 @@
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  background: #222;
-  color: white;
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.main-header a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
 }
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+.sign-up {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.hero-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    
+}
+
+/* LEFT SIDE TEXT */
+.text {
+    flex: 1;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.buy-now,
+.Explore {
+    padding: 10px 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Explore {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+/* IMAGE */
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.image img {
+    max-width: 200px;
+    width: 100%;
+}
+

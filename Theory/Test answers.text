@@ -1,0 +1,40 @@
+Question 1: CSS box model and it's four parts
+Answer; Box model simply means the way html elements takes space on your page.
+The four parts includes; 
+i.Margin
+ii.Border
+iii.Padding
+iv. Content
+
+Question 2: Difference between margin and Padding
+Answer; a. Margin is the space outside the box WHILE
+b. padding is the space inside the box which increases the space between the content and Border
+
+
+Question 3:Why is semantic html important?
+Answer; Semantic html helps us to use meaningful tags to describe a content structure.
+BENEFITS; a. it helps improve the readability of code
+          b. It makes it easy for SEO to access
+
+Question 4: Explain the Difference between flexbox and css grid
+Answer; flexbox gives a one direction layout that helps you arrange item in a row or column easily.
+WHILE Grid gives a two direction layout , it best for page layout
+
+Question 5: What does display: flex; do to an element and its children?
+Answer; a. Flex turns the elements into a fkex container and also lets us align and space it's children
+        b. It's children also becomes flex items
+
+Question 6: a.Why is the alt attribute important in images?
+            b.Who benefits from it?
+Answer; a. It describes the image and makes it acceccible, SEO friendly and readable.
+        b.Search engine and screen readers can use it.
+
+Question 7: What happens when two css rules targets same element?
+Answer; There is heirarichal rule in css that the browser uses to decide, the higher one wins
+the 1. inline is the strongest
+    2. ID is next
+    3. Classes is next
+    4. Elements 
+
+       
+
